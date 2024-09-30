@@ -16,3 +16,14 @@ def get_location():
 
 get_location()
 ```
+
+
+# Get the current date along with the time using 'datetime' module
+
+```
+from datetime import datetime
+
+form1 = datetime.now()
+
+print(form1)
+```
