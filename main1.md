@@ -27,3 +27,23 @@ form1 = datetime.now()
 
 print(form1)
 ```
+
+
+# Get system info and configuration using 'platform' module 
+
+```python
+
+import platform
+
+def get_system_info():
+    print(f"System: {platform.system()}")                # Operating System
+    print(f"Node Name: {platform.node()}")               # Computer Name
+    print(f"Release: {platform.release()}")              # OS Version
+    print(f"Version: {platform.version()}")              # OS Build Number
+    print(f"Machine: {platform.machine()}")              # Machine Type (e.g., x86_64)
+    print(f"Processor: {platform.processor()}")          # Processor Type
+    print(f"Python Version: {platform.python_version()}") # Python Version
+    print(platform.architecture())                       # Architecture
+ 
+get_system_info()
+```
