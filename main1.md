@@ -1,6 +1,6 @@
 # Determining the Location using the 'requests' module
 
-```
+```python
 import requests
 
 def get_location():
@@ -20,7 +20,7 @@ get_location()
 
 # Get the current date along with the time using 'datetime' module
 
-```
+```python
 from datetime import datetime
 
 form1 = datetime.now()
